@@ -53,7 +53,7 @@ const calcAge2 = function (birthYeah) {
 const age2 = calcAge2(1991);
 
 console.log(age1, age2);
- 
+
 
 ///////////////////////////////////////
 // Arrow functions
@@ -394,6 +394,30 @@ TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 GOOD LUCK 😀
 */
 
+
+// const markObj = {
+//   fullName: 'Mark MIller',
+//   mass: 78,
+//   height: 1.69,
+//   calcBmi: function () {
+//     this.bmi = this.mass / (this.height ** 2)
+//     return this.bmi
+//   }
+// }
+
+// const JohnsObj = {
+//   fullName: 'John Smith',
+//   mass: 92,
+//   height: 1.95,
+//   calcBmi: function () {
+//     this.bmi = this.mass / (this.height ** 2)
+//     return this.bmi
+//   }
+// }
+
+// console.log(markObj.calcBmi())
+// console.log(JohnsObj.calcBmi())
+
 /*
 const mark = {
   fullName: 'Mark Miller',
@@ -599,3 +623,4 @@ console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
 */
+
